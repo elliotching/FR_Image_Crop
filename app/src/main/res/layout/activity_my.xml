@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- 12345 WARNIGN: CHANGE STRING  -->
+            <Button
+                android:id="@+id/button_chooser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Choose IMAGE" />
+
+            <!-- 12345 WARNIGN: CHANGE STRING  -->
+            <Button
+                android:id="@+id/button_capture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Capture IMAGE" />
+
+            <!-- 12345 WARNIGN: CHANGE STRING  -->
+            <Button
+                android:id="@+id/button_pick_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick IMAGE" />
+
+            <!-- 12345 WARNIGN: CHANGE STRING  -->
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_upload"
+                android:text="Upload"/>
+
+            <!-- 12345 WARNING: DO NOT FORGET CHANGE FONT SIZE TO MATCH THEME -->
+            <!-- 12345 WARNIGN: CHANGE STRING  -->
+            <TextView
+                android:id="@+id/text_image_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text=""/>
+
+            <ImageView
+                android:id="@+id/imageview_myactivity"
+                android:layout_width="match_parent"
+                android:layout_height="400dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
